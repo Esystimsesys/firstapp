@@ -77,8 +77,8 @@
           </configuration>
         </plugin>
         <plugin>
-          <groupid>org.apache.tomcat.maven</groupid>
-          <artifactid>tomcat7-maven-plugin</artifactid>
+          <groupId>org.apache.tomcat.maven</groupId>
+          <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
               <path>/firstapp</path>
