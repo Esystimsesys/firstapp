@@ -76,6 +76,16 @@
             <target>11</target>
           </configuration>
         </plugin>
+        <plugin>
+          <groupid>org.apache.tomcat.maven</groupid>
+          <artifactid>tomcat7-maven-plugin</artifactid>
+          <version>2.2</version>
+          <configuration>
+              <path>/firstapp</path>
+              <server>tomcat-host</server>
+              <url>http://13.230.185.1:8080/manager/text</url>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
