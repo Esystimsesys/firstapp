@@ -83,7 +83,7 @@
           <configuration>
               <path>/firstapp</path>
               <server>tomcat-host</server>
-              <url>http://13.230.185.1:8080/manager/text</url>
+              <url>http://52.194.214.215:8080/manager/text</url>
           </configuration>
         </plugin>
       </plugins>
