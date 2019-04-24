@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /usr/tomcat/apache-tomcat-9.0.17/webapps
+permissions:
+  - object: /
+    pattern: "**"
+    group: tomcat
+    owner: tomcat
+    mode: 640
+    type:
+      - file
